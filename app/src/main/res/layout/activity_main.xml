@@ -25,12 +25,8 @@
             android:fontFamily="@font/montserrat"
             android:hint="Number"
             android:inputType="phone"
-            android:outlineAmbientShadowColor="@color/black"
-            android:outlineSpotShadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHighlight="@color/black"
-            android:textColorHint="@color/black"
-            android:textColorLink="@color/black" />
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/editTextTextFName"
@@ -40,12 +36,8 @@
             android:fontFamily="@font/montserrat"
             android:hint="First name"
             android:inputType="text"
-            android:outlineAmbientShadowColor="@color/black"
-            android:outlineSpotShadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHighlight="@color/black"
-            android:textColorHint="@color/black"
-            android:textColorLink="@color/black" />
+            android:textColorHint="@color/black" />
 
         <EditText
             android:id="@+id/editTextTextSName"
@@ -55,12 +47,9 @@
             android:fontFamily="@font/montserrat"
             android:hint="Second Name"
             android:inputType="text"
-            android:outlineAmbientShadowColor="@color/black"
             android:outlineSpotShadowColor="@color/black"
             android:textColor="@color/black"
-            android:textColorHighlight="@color/black"
-            android:textColorHint="@color/black"
-            android:textColorLink="@color/black" />
+            android:textColorHint="@color/black" />
     </LinearLayout>
 
     <Button

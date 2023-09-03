@@ -1,6 +1,5 @@
 package com.example.taxi;
 
-import androidx.activity.result.ActivityResultLauncher;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -28,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
         binding.editTextPhone.setText(sPref.getString("PNum", ""));
         binding.editTextTextFName.setText(sPref.getString("FNum", ""));
         binding.editTextTextSName.setText(sPref.getString("SNum", ""));
+
+        if (sPref.getBoolean("Log_in", false)){
+            binding.button.setText("Log in");
+        }
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
